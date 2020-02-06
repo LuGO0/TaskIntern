@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Views.MainActivity">
+
+        <ImageView
+            android:id="@+id/image_to_be_processed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"/>
+
+        <TextView
+            android:id="@+id/labelInterpreted"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10sp"
+            android:layout_marginBottom="8dp"
+            android:layout_below="@+id/image_to_be_processed"
+            android:text="INTERPRETED STRING"/>
+
+        <TextView
+            android:id="@+id/interpreted_string"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Interpreted String will be here"
+            android:layout_below="@+id/labelInterpreted"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/labelTagged"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/interpreted_string"
+            android:textSize="10sp"
+            android:layout_marginBottom="8dp"
+            android:text="TAGGED STRING"/>
+
+
+        <TextView
+            android:id="@+id/tagged_string"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/labelTagged"
+            android:text="Tagged String will be here!"
+            android:layout_marginBottom="8dp"/>
+
+        <Button
+            android:id="@+id/tag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tagged_string"
+            android:layout_marginTop="8dp"
+            android:layout_centerInParent="true"
+            android:text="TAG"
+            android:onClick="onClickButton"/>
+</RelativeLayout>
+        </ScrollView>

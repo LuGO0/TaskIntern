@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "791111078887",
+    "firebase_url": "https://taskintern-c614d.firebaseio.com",
+    "project_id": "taskintern-c614d",
+    "storage_bucket": "taskintern-c614d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:791111078887:android:fba2e42513c7001e4c2342",
+        "android_client_info": {
+          "package_name": "com.android.taskintern"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "791111078887-9l7nerh0iljpdik3qfaepgspbhf3c12f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.android.taskintern",
+            "certificate_hash": "8387e47beb6248642ade0141043247dfc121097d"
+          }
+        },
+        {
+          "client_id": "791111078887-u5efju5rkunju1idd0egjn2t69af2b9c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbOF5aBpUE8tGUHcnH23x0Due9s_xd-7E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "791111078887-u5efju5rkunju1idd0egjn2t69af2b9c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
